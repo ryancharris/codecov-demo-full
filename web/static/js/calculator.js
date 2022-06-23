@@ -121,4 +121,12 @@ export class Calculator {
       false
     }
   }
+
+  isOdd(number) {
+    if (number % 2 !== 0) {
+      true
+    } else {
+      false
+    }
+  }
 }
