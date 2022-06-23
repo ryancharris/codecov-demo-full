@@ -25,4 +25,6 @@ flag_management:
 comment:                  # this is a top-level key
   layout: "reach, diff, flags, files"
   behavior: default
+  require_head: no     # default yes
+  require_base: no     # default yes
   require_changes: true  # if true: only post the comment if coverage changes
