@@ -21,3 +21,8 @@ flag_management:
         - type: project
           target: auto
           threshold: 1%
+
+comment:                  # this is a top-level key
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: true  # if true: only post the comment if coverage changes

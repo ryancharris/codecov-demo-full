@@ -1,5 +1,9 @@
 const X = () => {
-  console.log('hi')
+  if (12 % 2 === 0) {
+    console.log("even")
+  } else {
+    console.log("odd")
+  }
 }
 
 export default X;
