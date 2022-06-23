@@ -113,4 +113,12 @@ export class Calculator {
       this.previousOperandTextElement.innerText = ''
     }
   }
+
+  isEven(number) {
+    if (number % 2 === 0) {
+      true
+    } else {
+      false
+    }
+  }
 }
